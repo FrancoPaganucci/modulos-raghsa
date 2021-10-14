@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/58cb10c004.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Módulo Madero Office</title>
+</head>
+<body>
+    <div class="main-ctn">
+
+        
+        <!--img lado izquierdo-->
+        <div class="left-side">
+            <!--acá van los ctas a cada piso-->
+            <div id="tooltip-cnt">
+                <button class="tooltip" id="piso-prueba">+</button>
+                <button class="tooltip">+</button>
+                <button class="tooltip">+</button>
+                <button class="tooltip">+</button>
+                <button class="tooltip">+</button>
+                <button class="tooltip">+</button>
+                <button class="tooltip">+</button>
+            </div>
+        </div>
+
+
+        <!--panel lado derecho-->
+        <div class="right-side">
+            <!--pestañas-->
+            <div class="pestañas">
+                <h3 id="area-rentable">ÁREA RENTABLE</h3>
+                <h3 id="area-alfombra">ÁREA ALFOMBRA</h3>
+                <h3 id="area-total">ÁREA TOTAL</h3>
+            </div>
+            <div class="separador"></div>
+            <!--m2 + plano + estado disponibilidad-->
+            <div class="info-dispo">
+                <h1 id="h1-superficie">2408 m2</h1>
+                <img id="img-plano" src="./assets/MO_rentable_1234.jpg" alt="plano-dispo" id="plano-piso">
+                <!--esto quizás debería ser un asset en svg-->
+                <p id="estado-dispo">Disponible</p>
+                <div class="separador"></div>
+            </div>
+            <!--CTAs contactar/recorrido360/descargarLayout-->
+            <div class="ctas-cnt">
+                <ul>
+                    <li><button>CONTACTAR<i class="fab fa-whatsapp"></i></button></li>
+                    <li class="underline-li"><a href="">RECORRIDO 360º</a></li>
+                    <li class="underline-li"><a href="">DESCARGAR LAYOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

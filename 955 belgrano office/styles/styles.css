@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+  margin: 0 5px;
+  padding: 0;
+  font-family: 'Lato';
+  max-width: 100%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.main-ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-ctn .left-side {
+  background-image: url("../assets/MADERO_OFFICE.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 52%;
+}
+
+.main-ctn .left-side #tooltip-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50%;
+  margin-top: 17%;
+}
+
+.main-ctn .left-side #tooltip-cnt .tooltip {
+  cursor: pointer;
+  border: none;
+  margin: 3px 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orangered;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-ctn .left-side #tooltip-cnt .tooltip:hover {
+  background-color: #f16836;
+}
+
+.main-ctn .right-side {
+  margin-left: 15px;
+}
+
+.main-ctn .right-side .pestañas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.main-ctn .right-side .pestañas h3 {
+  margin: 20px 5px;
+  border-bottom: 1px solid transparent;
+}
+
+.main-ctn .right-side .pestañas h3:hover {
+  color: orangered;
+  cursor: pointer;
+  border-bottom: 1px solid orangered;
+}
+
+.main-ctn .right-side .separador {
+  margin-bottom: 25px;
+  height: 1px;
+  background-color: #8f8e8e;
+  width: 100%;
+}
+
+.main-ctn .right-side .info-dispo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.main-ctn .right-side .info-dispo #h1-superficie {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.main-ctn .right-side .info-dispo #plano-piso {
+  width: 85%;
+}
+
+.main-ctn .right-side .info-dispo #estado-dispo {
+  border: 1px solid green;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+  color: green;
+}
+
+.main-ctn .right-side .ctas-cnt ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-ctn .right-side .ctas-cnt ul .underline-li {
+  padding: 10px 25px;
+}
+
+.main-ctn .right-side .ctas-cnt ul .underline-li a {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+.main-ctn .right-side .ctas-cnt ul .underline-li a:hover {
+  border-bottom: 0px solid orangered;
+}
+
+.main-ctn .right-side .ctas-cnt ul button {
+  padding: 10px 35px;
+  background-color: orangered;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-ctn .right-side .ctas-cnt ul button:hover {
+  background-color: #f16836;
+}
+/*# sourceMappingURL=styles.css.map */

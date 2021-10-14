@@ -1,0 +1,113 @@
+* {
+    margin: 0 5px;
+    padding: 0;
+    font-family: 'Lato';
+    max-width: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-ctn {
+    display: flex;
+    .left-side {
+        background-image: url('../assets/MADERO_OFFICE.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 52%;
+
+        #tooltip-cnt {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50%;
+            margin-top: 17%;
+            .tooltip {
+                cursor: pointer;
+                border: none;
+                margin: 3px 0;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: orangered;
+                color: #fff;
+                font-weight: bold;
+                &:hover {
+                    background-color: rgb(241, 104, 54);
+                }
+            }
+        }
+    }
+
+    .right-side {
+        margin-left: 15px;
+        .pestañas {
+            display: flex;
+            column-gap: 20px;
+            
+            h3 {
+                margin: 20px 5px;
+                border-bottom: 1px solid transparent;
+                &:hover {
+                    color: orangered;
+                    cursor: pointer;
+                    border-bottom: 1px solid orangered;
+
+                }
+            }
+            
+        }
+
+        .separador {
+            margin-bottom: 25px;
+            height: 1px;
+            background-color: rgb(143, 142, 142);
+            width: 100%;
+        }
+
+        .info-dispo {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            margin-bottom: 20px;
+            #h1-superficie {
+                font-size: 48px;
+                font-weight: 300;
+            }
+            #plano-piso {
+                width: 85%;
+            }
+            #estado-dispo {
+                border: 1px solid green;
+                width: fit-content;
+                padding: 5px 10px;
+                color: green;
+            }
+        }
+
+        .ctas-cnt {
+            ul {
+                display: flex;
+                .underline-li {
+                    padding: 10px 25px;
+                    a {
+                        color: orangered;
+                        border-bottom: 1px solid orangered;
+                        &:hover {
+                            border-bottom: 0px solid orangered
+                        }
+                    }
+                }
+                button {
+                    padding: 10px 35px;
+                    background-color: orangered;
+                    border-radius: 5px;
+                    border: 0;
+                    color: #fff;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: rgb(241, 104, 54);
+                    }
+                }
+            }
+        }
+    }
+}
