@@ -5,27 +5,38 @@
     max-width: 100%;
     list-style: none;
     text-decoration: none;
+    animation: fadein 450ms ease-in-out 1
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .main-ctn {
     display: flex;
     .left-side {
         background-image: url('../assets/MADERO_OFFICE.jpg');
-        background-size: cover;
+        //background-size: cover;
         background-position: center;
+        background-size: 800px;
         width: 52%;
 
         #tooltip-cnt {
             display: flex;
             flex-direction: column;
-            margin-left: 50%;
-            margin-top: 17%;
+            margin-left: 35%;
+            margin-top: 1%;
             .tooltip {
                 cursor: pointer;
                 border: none;
                 margin: 3px 0;
-                width: 20px;
-                height: 20px;
+                width: 23px;
+                height: 23px;
                 border-radius: 50%;
                 background-color: orangered;
                 color: #fff;
