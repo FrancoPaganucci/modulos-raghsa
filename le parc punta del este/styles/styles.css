@@ -29,8 +29,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 50%;
-  margin-top: 17%;
+  margin-left: 45%;
+  margin-top: 3%;
 }
 
 .main-ctn .left-side #tooltip-cnt .tooltip {
