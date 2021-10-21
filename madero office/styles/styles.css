@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'Lato';
   max-width: 100%;
+  max-height: 100%;
   list-style: none;
   text-decoration: none;
   -webkit-animation: fadein 450ms ease-in-out 1;
@@ -37,8 +38,9 @@
 .main-ctn .left-side {
   background-image: url("../assets/MADERO_OFFICE.jpg");
   background-position: center;
-  background-size: 800px;
+  background-size: 700px;
   width: 52%;
+  height: 100vh;
 }
 
 .main-ctn .left-side #tooltip-cnt {
@@ -50,7 +52,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 35%;
-  margin-top: 1%;
+  margin-top: 0.5%;
 }
 
 .main-ctn .left-side #tooltip-cnt .tooltip {
@@ -71,6 +73,7 @@
 
 .main-ctn .right-side {
   margin-left: 15px;
+  max-height: 100vh;
 }
 
 .main-ctn .right-side .pestañas {
@@ -93,7 +96,7 @@
 }
 
 .main-ctn .right-side .separador {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   height: 1px;
   background-color: #8f8e8e;
   width: 100%;
@@ -112,21 +115,18 @@
 }
 
 .main-ctn .right-side .info-dispo #h1-superficie {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 300;
 }
 
 .main-ctn .right-side .info-dispo #plano-piso {
-  width: 85%;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.main-ctn .right-side .info-dispo #estado-dispo {
-  border: 1px solid green;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 5px 10px;
-  color: green;
+.main-ctn .right-side .info-dispo #disponibilidad {
+  width: 120px;
+  height: 80px;
 }
 
 .main-ctn .right-side .ctas-cnt ul {
