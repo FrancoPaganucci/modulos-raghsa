@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'Lato';
   max-width: 100%;
+  max-height: 100%;
   list-style: none;
   text-decoration: none;
 }
@@ -19,6 +20,7 @@
   background-size: cover;
   background-position: center;
   width: 52%;
+  height: 100vh;
 }
 
 .main-ctn .left-side #tooltip-cnt {
@@ -30,13 +32,12 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 37%;
-  margin-top: 3%;
 }
 
 .main-ctn .left-side #tooltip-cnt .tooltip {
   cursor: pointer;
   border: none;
-  margin: 3px 0;
+  margin: 0.5px 0;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -51,6 +52,7 @@
 
 .main-ctn .right-side {
   margin-left: 15px;
+  max-height: 100vh;
 }
 
 .main-ctn .right-side .pestañas {
@@ -97,7 +99,8 @@
 }
 
 .main-ctn .right-side .info-dispo #plano-piso {
-  width: 85%;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .main-ctn .right-side .info-dispo #estado-dispo {

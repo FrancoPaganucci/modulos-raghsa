@@ -1,6 +1,6 @@
 const piso_prueba = document.getElementById('piso-prueba');
 const superficie = document.getElementById('h1-superficie');
-const img_plano = document.getElementById('img-plano');
+const img_plano = document.getElementById('plano-piso');
 const area_rentable = document.getElementById('area-rentable');
 const area_alfombra = document.getElementById('area-alfombra');
 const area_total = document.getElementById('area-total');
